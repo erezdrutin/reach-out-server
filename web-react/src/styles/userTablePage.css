@@ -1,0 +1,93 @@
+/* AnotherPage.css */
+.marked-row {
+    background-color: red;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: right; /* Adjust text alignment for Hebrew */
+    border: 1px solid #ddd; /* Add border between columns */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  button {
+    background-color: #4caf50; /* Green background color for buttons */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+  }
+  
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* Additional styles for form elements */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    direction: rtl; /* Right-to-left direction for Hebrew text */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    text-align: right; /* Adjust text alignment for Hebrew */
+  }
+  .success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    background-color: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+  }
+  
+  .not-found-message {
+    background-color: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+  }
