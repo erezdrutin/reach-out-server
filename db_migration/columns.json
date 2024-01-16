@@ -1,0 +1,66 @@
+{
+  "volunteerId": {
+    "default": "MISSING",
+    "required": true
+  },
+  "firstName": {
+    "default": "MISSING",
+    "required": true
+  },
+  "lastName": {
+    "default": "MISSING",
+    "required": true
+  },
+  "phone": {
+    "default": "MISSING",
+    "required": true
+  },
+  "email": {
+    "default": "MISSING",
+    "required": true
+  },
+  "evacuated": {
+    "default": false,
+    "required": true
+  },
+  "city": {
+    "default": "MISSING",
+    "required": true
+  },
+  "age": {
+    "default": "MISSING",
+    "required": true
+  },
+  "referrer": {
+    "default": [],
+    "required": false
+  },
+  "garmin": {
+    "default": false,
+    "required": true
+  },
+  "interestLevel": {
+    "default": 0,
+    "required": true
+  },
+  "distressLevel": {
+    "default": 0,
+    "required": true
+  },
+  "distressMail": {
+    "default": false,
+    "required": true
+  },
+  "comments": {
+    "default": "MISSING",
+    "required": true
+  },
+  "state": {
+    "default": "MISSING",
+    "required": true
+  },
+  "timestamp": {
+    "default": "MISSING",
+    "required": true
+  }
+}
