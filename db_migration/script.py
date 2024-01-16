@@ -36,7 +36,7 @@ def normalize_df2(df: pd.DataFrame) -> pd.DataFrame:
         lambda x: set_row_state(x))
 
     # Merge comments and additionalComments
-    df[COMMENTS_COL] = f"{df[STATE_COMMENTS_COL]} {df[COMMENTS_COL]}"
+    df[COMMENTS_COL] = df[STATE_COMMENTS_COL] + " " + df[COMMENTS_COL]
 
     # Drop columns that are no longer relevant:
     df.drop(columns=[VOLUNTEER_NAME_COL, STATE_COMMENTS_COL], inplace=True)
