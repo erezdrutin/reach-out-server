@@ -2,7 +2,7 @@ import pandas as pd
 import firebase_admin
 from firebase_admin import credentials, firestore
 
-FIREBASE_CONFIG_PATH = './lend-a-hand-f9ec0-firebase-adminsdk-tetf1-ce9258a9d6.json'
+FIREBASE_CONFIG_PATH = '../secret/lend-a-hand-f9ec0-firebase-adminsdk-tetf1-ce9258a9d6.json'
 MIGRATED_DB_PATH = '../db_migration/res.xlsx'
 COL_NAME = 'users'
 
