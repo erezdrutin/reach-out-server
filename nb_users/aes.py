@@ -5,6 +5,7 @@ from Crypto.Cipher import AES
 
 
 class AESCipher(object):
+    """ Cheers to this goat - https://stackoverflow.com/a/21928790 """
 
     def __init__(self, key):
         self.bs = AES.block_size
